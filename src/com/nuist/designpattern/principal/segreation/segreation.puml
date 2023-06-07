@@ -1,0 +1,4 @@
+@startuml
+
+(use the application) as (use)
+@enduml
