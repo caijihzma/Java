@@ -128,4 +128,18 @@ public class CollectionsTest {
 //        list2.add("AA");
         System.out.println(list2.get(0));//34
     }
+
+    @Test
+    public void test5(){
+//        同步
+//        Collections 类中提供了多个 synchronizedXxx() 方法，该方法可使将指定集合包装成线程同步的集合，从而可以解决多线程并发访问集合时的线程安全问题
+        ArrayList list1 = new ArrayList();
+//        返回的list2就是线程安全的
+        List list2 = Collections.synchronizedList(list1);
+        list2.add(123);//底层还是以前的方法，就是使用了synchronized包了一下
+
+        HashMap map1 = new HashMap();
+//        返回的map2就是线程安全的
+        Map map2 = Collections.synchronizedMap(map1);
+    }
 }
