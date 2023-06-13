@@ -1,5 +1,7 @@
 package com.nuist.javabase.selfdefine;
 
+import java.util.ArrayList;
+
 /**
  * @author 陈志远
  * @version 1.0
@@ -8,4 +10,13 @@ package com.nuist.javabase.selfdefine;
  *      SubOrder2不是泛型类
  */
 public class SubOrder2 extends Order<Integer>{
+//
+//    public <E> ArrayList<E> copyFromArrayToList(E[] arr){
+//        ArrayList<E> list = new ArrayList<>();
+////        遍历数组添加到集合
+//        for (E e : arr){
+//            list.add(e);
+//        }
+//        return list;
+//    }
 }

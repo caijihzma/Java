@@ -67,8 +67,17 @@ public class GenericTest {
         Integer e1 = sub4.getE();
     }
 
+    /**
+     * 测试泛型方法的使用
+     */
     @Test
     public  void test5(){
-
+//        order1调用copyFromArrayToList方法，与<String>无关，因为Order是T，方法是E，一点关系都没有
+        Order<String> order1 = new Order<>();
+        Integer[] arr = {1, 2, 3, 4, 5};
+        ArrayList<Integer> list = order1.copyFromArrayToList(arr);
+        for(Integer i : list){
+            System.out.println(i);
+        }
     }
 }
