@@ -1,6 +1,4 @@
-package com.nuist.javabase.selfdefine;
-
-import java.util.ArrayList;
+package com.nuist.javabase.generic.selfdefine;
 
 /**
  * @author 陈志远

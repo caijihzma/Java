@@ -1,4 +1,4 @@
-package com.nuist.javabase.selfdefine;
+package com.nuist.javabase.generic.selfdefine;
 
 import java.util.ArrayList;
 
