@@ -1,4 +1,4 @@
-package com.nuist.datastructure;
+package com.nuist.datastructure.sparseArray;
 
 /**
  * @author 陈志远
@@ -13,7 +13,7 @@ public class SparseArray {
         chessArr1[1][2] = 1;
         chessArr1[2][3] = 2;
 //        输出原始的二维数组
-        System.out.println("原始的二维数组");
+        System.out.println("原始的二维数组"); 
         for (int[] row : chessArr1) {
             for (int data : row) {
                 System.out.printf("%d\t", data);
